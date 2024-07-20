@@ -70,7 +70,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > C. Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
 
-![See planning wireframes here.](./assets/planning/wireframe)
+[See planning wireframes here.](./assets/planning/wireframe)
 
 ## Guerilla Usability Testing
 
