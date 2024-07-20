@@ -70,7 +70,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > C. Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
 
-![See planning wireframes here.](.assets/planning/wireframe)
+![See planning wireframes here.](./assets/planning/wireframe)
 
 ## Guerilla Usability Testing
 
@@ -85,11 +85,10 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > E. Create an interactive prototype for the Tanitian website that reflects your wireframe design and incorporates the feedback you received during guerrilla testing. Your prototype must be submitted as a URL link.
 
-[Pending.]
+[Here](https://tourtaniti.netlify.app/)
 
-(Include link to live site here, through Github Pages.)
 
-Tools: Visual Studio Code, HTML, CSS, Javascript, React, Vite
+Tools: Visual Studio Code, HTML, CSS, ReactJS, Vite
 
 ## Usability Testing
 
