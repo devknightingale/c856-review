@@ -1,0 +1,76 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-image: url(/assets/home/surfer2.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--color-gold);
+  color: var(--color-bg);
+  padding: 10px 20px;
+}
+
+.subtitle {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.more {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  border: 3px solid var(--color-text);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+
+  &:visited {
+    color: var(--color-text);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 26px;
+  }
+  .subtitle {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 20px;
+  }
+  .subtitle {
+    font-size: 36px;
+  }
+  .more {
+    font-size: 18px;
+  }
+}

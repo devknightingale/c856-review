@@ -1,0 +1,123 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  padding: 40px 0;
+  flex-direction: column;
+  background-color: var(--color-text);
+}
+
+.stayHeader {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.stayHeader h1 {
+  color: var(--color-bg);
+  background-color: var(--color-gold);
+  width: max-content;
+  padding: 5px 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.stayHeader p {
+  width: fit-content;
+}
+
+.optionsContainer {
+  background-color: var(--color-text);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  /* gap: 10px 0; */
+  justify-content: center;
+}
+
+.hotel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* z-index: 1; */
+  color: var(--color-text);
+}
+
+.hotel h1 {
+  background-color: var(--color-gold);
+  color: var(--color-bg);
+  padding: 5px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 2px 2px 5px black;
+  }
+}
+
+/* Individual Card Styles */
+
+#hotelCard {
+  background-image: url(/assets/stay/hotel.jpeg);
+  background-position: 50% 60%;
+  background-size: cover;
+}
+
+#bedAndBreakfastsCard {
+  background-image: url(/assets/stay/bnb.jpeg);
+  background-position: 50% 80%;
+  background-size: cover;
+}
+
+#privateRentalsCard {
+  background-image: url(/assets/stay/condo.jpg);
+  background-position: 50% 80%;
+  background-size: cover;
+}
+
+#resortCard {
+  background-image: url(/assets/stay/resort.jpeg);
+  background-position: 50% 80%;
+  background-size: cover;
+}
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    background-color: var(--color-text);
+  }
+  .hotel {
+    width: 100%;
+    flex-direction: column;
+    height: 30vh;
+    margin-bottom: 10px;
+  }
+  .optionsContainer {
+    flex-direction: column;
+    height: max-content;
+  }
+}
+@media screen and (max-width: 425px) {
+  .stayHeader {
+    width: 100%;
+  }
+  .stayHeader h1 {
+    font-size: 24px;
+    width: 80%;
+  }
+  .stayHeader p {
+    margin: 0 10%;
+  }
+}
